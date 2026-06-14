@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# Doctor-Appointment-Booking-System
+=======
+>>>>>>> 7b0a94fa2143fe3786bf582d75099ceb8763eeab
 # Appointment Booking System
 
 A simple web-based appointment booking application for patients to schedule appointments with doctors. This system uses a MySQL database to store and manage appointment data in real-time.
@@ -148,4 +154,10 @@ When you book an appointment:
 - Time slots are in 30-minute intervals
 - Each doctor has default working hours (9 AM - 5 PM)
 - Slots cannot be double-booked (unique constraint)
+<<<<<<< HEAD
 - Cancelled appointments keep their records but change status
+=======
+- Cancelled appointments keep their records but change status
+>>>>>>> abcbaf0 (initial project upload)
+
+>>>>>>> 7b0a94fa2143fe3786bf582d75099ceb8763eeab
