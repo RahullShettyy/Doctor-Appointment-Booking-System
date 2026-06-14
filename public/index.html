@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Book a Doctor Appointment</h1>
+
+    <!-- Patient Form -->
+    <section id="patient-section">
+      <h2>Your Details</h2>
+      <form id="patient-form">
+        <input type="text" id="patient-name" placeholder="Full Name" required>
+        <input type="email" id="patient-email" placeholder="Email" required>
+        <input type="tel" id="patient-phone" placeholder="Phone (optional)">
+        <button type="submit">Continue</button>
+      </form>
+    </section>
+
+    <!-- Doctor Selection -->
+    <section id="doctor-section" class="hidden">
+      <h2>Select a Doctor</h2>
+      <p class="info-text">Click on a doctor to view their available appointment timings</p>
+      <div id="doctors-list"></div>
+    </section>
+
+    <!-- Time Selection -->
+    <section id="time-section" class="hidden">
+      <h2>Select Time Slot</h2>
+      <div id="doctor-info" class="doctor-info-box"></div>
+      <label for="appointment-date">Select Date:</label>
+      <input type="date" id="appointment-date" required>
+      <p class="timing-label">Available Time Slots:</p>
+      <div id="time-slots"></div>
+      <button id="time-confirm-btn" class="confirm-button">Confirm Selection</button>
+    </section>
+
+    <!-- Confirmation -->
+    <section id="confirmation-section" class="hidden">
+      <h2>Confirm Appointment</h2>
+      <div id="appointment-details"></div>
+      <button id="confirm-btn">Confirm Booking</button>
+    </section>
+
+    <!-- My Appointments -->
+    <section id="my-appointments">
+      <h2>My Appointments</h2>
+      <input type="email" id="appointments-email" placeholder="Enter your email">
+      <button id="load-appointments">Load Appointments</button>
+      <div id="appointments-list"></div>
+    </section>
+
+    <!-- Admin View (Demo) -->
+    <section id="admin-view">
+      <h2>Database View (All Appointments)</h2>
+      <button id="load-all">Refresh</button>
+      <div id="all-appointments"></div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

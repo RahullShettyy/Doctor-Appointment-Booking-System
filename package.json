@@ -1,0 +1,15 @@
+{
+  "name": "appointment-booking",
+  "version": "1.0.0",
+  "description": "Simple appointment booking UI for patients",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.2"
+  }
+}
