@@ -1,6 +1,6 @@
 # Doctor-Appointment-Booking-System
 =======
->>>>>>> 7b0a94fa2143fe3786bf582d75099ceb8763eeab
+
 # Appointment Booking System
 
 A simple web-based appointment booking application for patients to schedule appointments with doctors. This system uses a MySQL database to store and manage appointment data in real-time.
