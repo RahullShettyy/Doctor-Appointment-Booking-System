@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 # Doctor-Appointment-Booking-System
 =======
 >>>>>>> 7b0a94fa2143fe3786bf582d75099ceb8763eeab
